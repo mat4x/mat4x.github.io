@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="211"
+   height="406"
+   viewBox="0 0 211 406"
+   fill="none"
+   version="1.1"
+   id="svg216"
+   sodipodi:docname="ceiling-lamp.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs220" />
+  <sodipodi:namedview
+     id="namedview218"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg216" />
+  <path
+     d="m 102.78023,17 c 2.8706,21.1646 -9.568708,26.4557 -9.249708,48.943 0.3189,22.4874 18.818408,25.7943 19.456408,47.62 0.6379,21.826 -22.327008,17.858 -22.964908,50.266 -0.6379,32.408 12.758308,43.652 12.758308,62.171"
+     stroke="#8b8b8b"
+     id="path208" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 85.54855,0 h 41.233 c 0,9.53124 -7.7266,17.2578 -17.2578,17.2578 h -1.3635 V 220.369 h 15.3102 c 4.0325,0 7.3014,3.269 7.3014,7.302 0,4.032 -3.2689,7.301 -7.3014,7.301 h -35.9409 c -4.0324,0 -7.3014,-3.269 -7.3014,-7.301 0,-4.033 3.269,-7.302 7.3014,-7.302 h 15.3103 V 17.2578 h -0.0335 C 93.27515,17.2578 85.54855,9.53124 85.54855,0 Z"
+     fill="#cccd86"
+     id="path210" />
+  <path
+     d="M 57.187679,249.844 C 58.306219,236.921 69.123019,227 82.094519,227 h 46.810601 c 12.9715,0 23.7887,9.921 24.9067,22.844 l 6.838,79 c 1.264,14.603 -10.249,27.156 -24.9072,27.156 H 75.257019 c -14.6577,0 -26.17077,-12.553 -24.90685,-27.156 z"
+     fill="#ff7c7c"
+     id="path212" />
+  <path
+     opacity="0.6"
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 50.432355,327.899 0.57449,-6.638 H 159.99323 l 0.575,6.638 z m 0.97286,10.62 c -0.66612,-2.111 -1.05806,-4.338 -1.13545,-6.637 H 160.73023 c -0.077,2.299 -0.469,4.526 -1.135,6.637 z"
+     fill="#ffa8a8"
+     id="path214" />
+</svg>

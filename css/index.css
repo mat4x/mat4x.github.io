@@ -1,0 +1,77 @@
+
+@import url("global.css");
+
+:root{
+    --letter-angle : 0deg;
+}
+
+/*------------------- SCROLLBAR */
+::-webkit-scrollbar { width: 0.8em; }
+::-webkit-scrollbar-track { background: #FFE1CC; }
+::-webkit-scrollbar-thumb { background: #682B00; }
+::-webkit-scrollbar-thumb:hover { background: #985728; }
+
+
+/*------------------- LETTER */
+.letter-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+#letter-exclaim {
+    position: absolute;
+    top: 6%;
+    left: 8.91%;
+    font-size: 40px;
+}
+.letter-paragraph {
+    position: absolute;
+    width: 88%;
+    top: 12.7%;
+    left: 10.73%;
+    
+    font-size: 1.2rem;
+    line-height: 37.2px;
+    display: inline-block;
+}
+#letter-date {
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    font-size: 20px;
+    text-align: right;
+}
+#letter {
+    position: fixed;
+    height: 550px;
+    aspect-ratio: 550/700;
+
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%) rotate(var(--letter-angle));
+    
+    background-color:   #FFE1CC;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 10;
+
+    
+    color: var(--brown-text);
+    font-family: 'Indie Flower', cursive;
+
+    animation: sway 10s ease-in-out infinite;
+
+    transform-origin: center bottom;
+}
+@keyframes sway{
+    0%, 100%{ rotate: 1deg;}
+    50%{rotate: -1deg;}
+}
+/*------------------- PEN */
+
+
+/* ADD NOISE*/

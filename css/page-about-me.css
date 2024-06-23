@@ -1,0 +1,40 @@
+@import url("/css/global.css");
+
+.soon {
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 220px);
+    
+    color: var(--brown-text);
+    font-size: 70px;
+    font-family: 'Mogra', cursive;
+}
+.computer-table-icon {
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 700px);
+    height: 300px;
+    aspect-ratio: 763.1/379;
+}
+.hall-window-icon {
+    position: absolute;
+    bottom: 308px;
+    left: calc(50% - 314px);
+    width: 150px;
+    aspect-ratio: 239/433;
+    overflow: hidden;
+}
+.ceiling-lamp-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 600px);
+    height: 250px;
+    aspect-ratio: 115/356;
+    object-fit: cover;
+
+    cursor: var(--mouse-pointer);
+}
+
+.page-about-me {
+    background-color: #ffddcc;
+}

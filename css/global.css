@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?display=swap&family=Mogra&family=Island+Moments&family=Dancing+Script&family=Indie+Flower');
+/* font-family: 'Mogra', cursive; */
+/* font-family: 'Island Moments', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Indie Flower', cursive; */
+
+
+:root{
+
+    --PALT1 : #fff;
+    --PALT2 : #fff;
+    --PALT3 : #fff;
+    --PALT4 : #fff;
+
+    --brown-text : #682B00;
+
+    --shadow-color: 43, 43, 59;
+    --paper-shadow : 4px 6px 3px rgba(var(--shadow-color), 0.4), -2px -2px 10px rgba(var(--shadow-color), 0.1);
+
+    --highlight-outline: solid #fff6 5px;
+
+    /* --letter-angle : 0; */
+
+    /* cursors */
+    --mouse-cursor : url("/cursors/cursor.png"), auto;
+    --mouse-pointer : url("/cursors/pointer.png"), pointer;
+    --mouse-grab: url("/cursors/grab.png"), grab;
+}
+
+*{
+    user-select: none;
+    font-family: inherit;
+}
+
+body{
+    margin: 0;
+    cursor: var(--mouse-cursor);
+    font-family: Mogra, cursive;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+a{
+    cursor: var(--mouse-pointer);
+}
+
+body{
+    width: 1px;
+    width: 100%;
+}
+
+section{
+    position: relative;
+    width: 100%; min-width: 960px;
+    height: 100lvh;
+    /* min-height: 1000px; */
+    
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.container {
+    /* background-color: rgba(255,255,255,0.2); */
+
+    width: 100%; max-width: 1920px;
+    aspect-ratio: 1920/1080;
+    /* flex: 1; */
+    position: relative;
+}
+
+
+/* QUIRKS */
+.small-paper-shadow{
+    box-shadow: var(--paper-shadow);
+}
+
+.selectable-glow:hover{
+    outline: var(--highlight-outline) !important;
+    cursor: var(--mouse-pointer);
+}
+
+.hover-pop:hover{
+    transition-delay: 0.1s;
+    transform: scale(1.2);
+}

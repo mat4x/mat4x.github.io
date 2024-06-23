@@ -1,0 +1,284 @@
+@import url("global.css");
+
+:root{
+    --book-top: 320px;
+    --book-left: 485px;
+    --book-shadow: drop-shadow(6px 16px 2px rgba(var(--shadow-color), 0.5));;
+    
+    --envp-top: 100px;
+}
+
+
+/* ----------------------------- WARN CARD */
+
+.warn-text {
+    position: absolute;
+    top: 50%; transform: translateY(-60%);
+    left: 7%;
+    width: 64%;
+    display: inline-block;
+}
+.share-plane-icon {
+    position: absolute;
+    height: 42.07%;
+    width: 24%;
+    right: 9%;
+    bottom: 9.01%;
+}
+.warn-small-screen {
+    width: 600px;
+    aspect-ratio: 500/300;
+    position: relative;
+    border-radius: 3px;
+    background-color: #FFEAE5;
+    overflow: hidden;
+    flex-shrink: 0;
+    
+    font-size: 24px;
+    color: var(--brown-text);
+}
+
+
+/* ----------------------------- BOOK */
+.bookmark-bottom-vector-icon {
+    position: absolute;
+    height: 8.29%;
+    width: 9.82%;
+    top: 100%;
+    right: 84.36%;
+    bottom: -8.29%;
+    left: 5.82%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.bookmark-tab {
+    position: absolute;
+    top: 31.57%;
+    right: -3.27%;
+    height: 15.14%;
+    width: 3.27%;
+    border-radius: 0px 3px 3px 0px;
+    background-color: #aeb87a;
+    /* REDS v */
+    /* top: 6.43%; */
+    /* background-color: #dd5375; */
+}
+.book {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 20px 20px 10px;
+    background-color: #759dbd;
+}
+.book-text {
+    position: absolute;
+    top: 20%;
+    left: 50%; transform: translateX(-50%);
+    text-align: center;
+    font-family: Mogra;
+    font-size: 6rem;
+    color: #477085;
+}
+.book-wrapper {
+    position: absolute;
+    top: calc(50% - var(--book-top));
+    left: calc(50% - var(--book-left));
+    width: 500px; /* changed*/
+    aspect-ratio: 550/700;
+    filter: var(--book-shadow);
+    transform: rotate(10deg);
+}
+
+/* ----------------------------- ENVELOPE */
+
+.card-text {
+    position: absolute;
+    top: 28px;
+    left: 25px;
+    display: inline-block;
+    width: 362px;
+    height: 129px;
+    font-family: Mogra;
+}
+#greeting-card {
+    position: absolute;
+    height: 78.13%;
+    width: 84%;
+    top: 11.04%;
+    right: 9.8%;
+    bottom: 10.83%;
+    left: 6.2%;
+    border-radius: 3px;
+    background-color: #ffeae5;
+    
+    z-index: 1;
+}
+@keyframes card-shimmy{
+    0%, 100%{rotate : 0deg;}
+    30%{rotate :  2deg;}
+    70%{rotate : -2deg;}
+}
+.envelope-sides-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+}
+.envelope-flap-icon {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 500/195;
+    top: -1px;
+    left: 0%;
+    
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    
+    cursor: var(--mouse-grab);
+    filter: drop-shadow(0px 10px 1px rgba(var(--shadow-color), 0.4));
+    
+    transform-origin: center 1px;
+    z-index: 1;
+}
+.envelope {
+    position: absolute;
+    top: calc(50% + var(--envp-top));
+    left: calc(50% - 261px);
+    background-color: #7e809d;
+    width: 450px; /* changed */
+    aspect-ratio: 500/320;
+    
+    transform: rotate(-10deg);
+}
+
+/* ----------------------------- CARD OVERLAY */
+
+.card-back-text {
+    position: absolute;
+    display: inline-block;
+    width: 420px;
+    top: 74.71px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-4deg);
+    transform-origin: 0 0;
+    text-decoration: underline;
+}
+.card-back {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffeae5;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 19px;
+}
+.card-logo-icon {
+    width: 30px;
+    aspect-ratio: 1;
+    position: relative;
+    transition-delay: 0.3s; /*while returning back*/
+    transition: 0.15s 1s steps(2);
+}
+.card-logos {
+    position: absolute;
+    right: 35px;
+    bottom: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.mayur-sharma {
+    margin: 0;
+}
+.details {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    display: inline-block;
+    width: 420px;
+}
+.bg-design-icon {
+    position: absolute;
+    width: 60%;
+    top: 200px;
+    right: 40%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 30px;
+}
+.show-card {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    
+    border-radius: 3px;
+    background-color: #ffeae5;
+    text-align: left;
+    font-size: 24px;
+    color: #4d3926;
+    font-family: Mogra;
+    
+    cursor: var(--mouse-grab) !important;
+    user-select: auto;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    transition-duration: 2s;
+    
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+/* ----------------------------- DICE */
+.pips {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    aspect-ratio: 1/6;
+    overflow: hidden;
+}
+#dice{
+    position: absolute;
+    top : calc(50% - 300px);
+    left: calc(50% - 630px);
+    width: 120px;
+    aspect-ratio: 1;
+    
+    rotate: -15deg;
+    scale: 0.6;
+    
+    object-fit: cover;
+    overflow: clip;
+    
+    border-radius: 20px;
+    background-color: #e5c9a1;
+    outline: solid #682B00aa 1px;
+}
+
+/* ----------------------------- PAGE */
+
+.page-welcome {
+    background-color: #d9b38c;    
+}
